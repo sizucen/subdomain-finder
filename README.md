@@ -4,9 +4,7 @@ A lightweight browser extension that finds the subdomains of any domain and show
 
 Works in **Chrome, Edge, Opera and Firefox** (Manifest V3). Built with React and Vite.
 
-<!-- Add a screenshot: save it as docs/screenshot.png and uncomment the line below.
 ![Subdomain Finder popup](docs/screenshot.png)
--->
 
 ## Features
 
