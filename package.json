@@ -1,0 +1,22 @@
+{
+  "name": "subdomain-finder",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser extension that finds subdomains via certificate transparency logs and checks which ones are open.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:chromium && npm run build:firefox",
+    "build:chromium": "vite build --mode chromium",
+    "build:firefox": "vite build --mode firefox"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
